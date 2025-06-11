@@ -1,0 +1,6 @@
+#!/bin/bash
+
+today=$(date)
+name="Abby"
+
+echo "My name is $name and today's date is $today"

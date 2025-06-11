@@ -1,0 +1,15 @@
+#!/bin/bash
+current_year=$(date +%Y)
+
+echo "Hello, what's your name?"
+read name
+
+echo "and you are how old?"
+read age
+
+
+current_year=$(date +%Y)
+birth_year=$((current_year - age))
+
+
+echo "Great job $name, you were born in the year $birth_year"
